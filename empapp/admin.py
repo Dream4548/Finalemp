@@ -10,10 +10,10 @@ class genderAdmin(admin.ModelAdmin):
         'gender'
     ]
     
-@admin.register(models.Educationlevel)
-class EducationlevelAdmin(admin.ModelAdmin):
+@admin.register(models.education)
+class educationAdmin(admin.ModelAdmin):
     list_display = [
-        'Educationlevel'
+        'education'
     ]
    
 @admin.register(models.department)
@@ -25,8 +25,9 @@ class departmentAdmin(admin.ModelAdmin):
 class detailAdmin(admin.ModelAdmin):
     list_display = [
         'detail_name',
+        'detail_lastname',
         'detail_gender',
         'detail_age',
-        #'class_Educationlevel',
+        'detail_education',
         'detail_department',
     ]
