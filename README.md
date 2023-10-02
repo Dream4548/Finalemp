@@ -55,7 +55,7 @@
 
   # Database
   - PosgestSQL (supabase)
-  ![Alt text](https://cdn.discordapp.com/attachments/1004798286164656169/1154535487495741510/image.png)
+  ![Alt text](https://media.discordapp.net/attachments/1034021483036549151/1158363344856682506/image.png?ex=651bf96e&is=651aa7ee&hm=25e90cf3be59009d0e452b47119518e7e5b0d2925724113e557d86f5631f8ca1&=&width=1318&height=702)
 
 # Back end
   - Django Framework
