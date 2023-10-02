@@ -2,26 +2,25 @@ from django.db import models
 
 # Create your models here.
 
-# หมวดหมู่รายวิชา
+
 class gender(models.Model):
-    gender = models.CharField(max_length=128) # ชื่อหมวดหมู่วิชาเรียน
+    gender = models.CharField(max_length=128) # เพศ
 
     def __str__(self):
         return self.gender
 
 class education(models.Model):
-    education = models.CharField(max_length=128) # ชื่อหมวดหมู่วิชาเรียน
+    education = models.CharField(max_length=128) # ระดับการศึกษา
 
     def __str__(self):
         return self.education
 
 class department(models.Model):
-    department = models.CharField(max_length=128) # ชื่อหมวดหมู่วิชาเรียน
+    department = models.CharField(max_length=128) # แผนกงาน
 
     def __str__(self):
         return self.department
 
-# รายวิชา
 class detail(models.Model):
     detail_name = models.CharField(max_length=100) #ชื่อ
     detail_lastname = models.CharField(max_length=100, default="") #นามสกุล
