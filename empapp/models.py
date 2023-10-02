@@ -26,7 +26,7 @@ class detail(models.Model):
     detail_name = models.CharField(max_length=100)
     detail_gender = models.ForeignKey(gender, on_delete=models.CASCADE)
     detail_age = models.IntegerField() # หน่วยกิต
-    detail_Educationlevel = models.ForeignKey(Educationlevel, on_delete=models.CASCADE) # หมวดหมู่รายวิชา
+    #detail_Educationlevel = models.ForeignKey(Educationlevel, on_delete=models.CASCADE) # หมวดหมู่รายวิชา
     detail_department = models.ForeignKey(department, on_delete=models.CASCADE) # หมวดหมู่รายวิชา
 
 
