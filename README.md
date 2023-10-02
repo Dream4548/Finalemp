@@ -20,7 +20,7 @@
 
 # หน้าเว็บที่จําเป็นต้องมี
   - หน้าแรก แสดงรายวิชาทั้งหมด
-  ![คำอธิบายของรูป](https://cdn.discordapp.com/attachments/1004798286164656169/1152354944293290014/image.png)
+  ![คำอธิบายของรูป](https://cdn.discordapp.com/attachments/1034021483036549151/1158349961679872060/image.png?ex=651becf7&is=651a9b77&hm=469e1dc24e5ed37405f5127a4669c327fdf3ea24356beb7795a5090503baa75b&)
   - หน้าหมวดหมู่
   ![Alt text](https://media.discordapp.net/attachments/1034021483036549151/1158350029073944637/image.png?ex=651bed08&is=651a9b88&hm=0edc7790f109086c0bfc91b338ac487b7918e3b87b7b29e4d5a3e34322778f30&)
   ![Alt text](https://media.discordapp.net/attachments/1034021483036549151/1158350090080096346/image.png?ex=651bed16&is=651a9b96&hm=631d44d23243a3faa69850171c1c3acd9d89af9d85609e1f651c050f1d71227a&)
