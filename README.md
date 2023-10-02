@@ -50,4 +50,18 @@
 
 # Deployment
   - Vercel
+
   ![Alt text](https://media.discordapp.net/attachments/1034021483036549151/1158366737167814716/vercel.png?ex=651bfc97&is=651aab17&hm=1449b4f86c1f78bbb137e17a9a81998167f135e508e6415a84403642fe4c99d5&=&width=558&height=702)
+
+  # Database
+  - PosgestSQL (supabase)
+  ![Alt text](https://cdn.discordapp.com/attachments/1004798286164656169/1154535487495741510/image.png)
+
+# Back end
+  - Django Framework
+
+# Template
+  [Bootstrap5](https://startbootstrap.com/theme/sb-admin-2)
+
+# Credit
+  [YOUTUBE:Phisan Sookkhee](https://www.youtube.com/watch?v=EC6k9KduQYU&list=PLUD6z42fSjQq785dtC6bl9BTSlO-_EjY9&index=1)
