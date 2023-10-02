@@ -77,7 +77,11 @@ WSGI_APPLICATION = 'finalemp1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'deem0986204548mm',
+        'HOST': 'db.umlplniosshkfpeofljh.supabase.co',
+        'POST': '5432',
     }
 }
 
