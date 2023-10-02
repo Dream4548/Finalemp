@@ -117,16 +117,16 @@ USE_I18N = True
 USE_TZ = True
 
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/4.1/howto/static-files/
+import os
+# SSTATIC_URL = '/static/'
+# STATICFILES_DIRS = [Path.joinpath(BASE_DIR, 'statics')]
+# # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
 
-STATIC_URL = 'static/'
-STATIC_ROOT = BASE_DIR / 'assets'
-STATICFILES_DIRS = [
-    BASE_DIR / 'statics'
-]
+STATIC_URL = '/static/'
 
-# Default primary key field type
-# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
+STATICFILES_DIRS = [BASE_DIR / 'statics', ]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'assets')
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
