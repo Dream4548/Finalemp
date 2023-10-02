@@ -65,9 +65,9 @@
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="utilities-color.html">จัดซื้อ</a>
-                        <a class="collapse-item" href="utilities-border.html">จัดหาลูกค้า</a>
-                        <a class="collapse-item" href="utilities-animation.html">บริการหลังการขาย</a>
+                        <a class="collapse-item" href="{% url 'purchase'%}">จัดซื้อ</a>
+                        <a class="collapse-item" href="{% url 'pvd'%}">จัดหาลูกค้า</a>
+                        <a class="collapse-item" href="{% url 'ass'%}">บริการหลังการขาย</a>
                     </div>
                 </div>
             </li>
@@ -82,7 +82,7 @@
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
+                <a class="nav-link" href="{% url 'about' %}">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>About the company</span></a>
             </li>
@@ -101,7 +101,7 @@
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
-            
+
         </ul>
         <!-- End of Sidebar -->
 
@@ -132,8 +132,12 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-4 text-gray-800">SIX Inc.</h1>
+                    <h1 class="h3 mb-4 text-gray-800">SIX inc</h1>
                     <p>บริษัท SIX Inc. เป็นบริษัทออแกไนซ์ที่เกิดขึ้นจากความใฝ่ฝันและความพยายามของกลุ่มนักธุรกิจและนักวิชาการชาวไทยที่มีความคิดสร้างสรรค์และวิสัยทัศน์ที่เหนือกว่าเวลา เริ่มต้นขึ้นในปี 2013 โดยนักธุรกิจชาวไทยที่มีประสบการณ์และความเชี่ยวชาญในตลาดเทคโนโลยีและสื่อดิจิทัลต่าง ๆ</p>
+                    <img src="https://media.discordapp.net/attachments/641249762682732553/1158340641470808064/istockphoto-1170045548-612x612.jpg?ex=651be449&is=651a92c9&hm=15c616192baa28349258105fc9d46250c3d232293cfde6b0b4259c1cc8a085d7&=" alt="Image of News Story" style="width:800px;height:550px;">
+                    <p>SIX Inc. ได้รับการก่อตั้งขึ้นเพื่อสร้างแพลตฟอร์มและบริการที่มีคุณค่าในโลกดิจิทัลและเทคโนโลยี และมุ่งมั่นที่จะช่วยให้ธุรกิจและองค์กรต่าง ๆ ขยายสิ่งที่ตนเองทำได้ในประเด็นต่าง ๆ ทั้งในด้านการค้าออนไลน์ การวางแผนกลยุทธ์การตลาด การพัฒนาซอฟต์แวร์ และการทำงานในรูปแบบอื่น ๆ ที่เกี่ยวข้องกับโลกดิจิทัล</p>
+                    <p>ในระยะเวลาที่ผ่านมา บริษัท SIX Inc. ได้รับความไว้วางใจจากลูกค้าและพัฒนาศักยภาพของตนเองอย่างต่อเนื่อง และในช่วงเวลา 10 ปีที่ผ่านมา บริษัทได้เติบโตและขยายธุรกิจออกไปในตลาดระดับนานาชาติ</p>
+                    <p>นอกจากนี้ บริษัท SIX Inc. ยังมุ่งมั่นในการสร้างความต่อเนื่องในการนำเทคโนโลยีและนวัตกรรมมาใช้เพื่อสร้างคุณค่าแก่ลูกค้าและชุมชนในอนาคต และยังเป็นส่วนหนึ่งของการสนับสนุนให้ธุรกิจไทยเติบโตและประสบความสำเร็จในสากลอย่างยั่งยืน ด้วยการเชื่อมโยงระหว่างความคิดสร้างสรรค์และเทคโนโลยีที่ทันสมัย SIX Inc. ก้าวสู่อนาคตอันสดใสและยังคงเป็นตัวก้าวข้ามสำคัญในโลกดิจิทัลและเทคโนโลยีของวันนี้และพร้อมที่จะเตรียมตัวสู่อนาคตที่มีเทคโนโลยีและนวัตกรรมไม่มีขอบเขตอีกมากมายในอนาคตข้างหน้าของบริษัทนี้ได้อย่างไม่หยุดยั้ง</p>
                 </div>
                 <!-- /.container-fluid -->
 
@@ -144,7 +148,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2020</span>
+                        <span></span>
                     </div>
                 </div>
             </footer>
